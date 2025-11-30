@@ -37,7 +37,7 @@ export default function BreweryCard(props: BreweryItem) {
   return (
     <>
       <Card
-        className="h-24 w-full bg-white rounded-xl items-start shadow-md gap-0 flex px-4 py-2"
+        className="h-[120px] p-4 gap-2 bg-gray-100 border rounded shadow-sm"
         onContextMenu={contextMenuHandel}
         onClick={ clickPageHandle }
         style={selectedIds.includes(id) ? { outline: "2px solid #39c539" } : {}}

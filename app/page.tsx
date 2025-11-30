@@ -3,7 +3,7 @@ import BreweryList from "@/components/BreweryList";
 export default function Home() {
 
   return (
-    <main>
+    <main className="">
       <BreweryList/>
     </main>
   );

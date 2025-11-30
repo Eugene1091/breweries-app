@@ -39,7 +39,7 @@ export default function BreweryList() {
         </div>
         <div className="">
           <ul
-            className="h-[calc(5*96px+4*1rem)] overflow-y-auto scroll-smooth p-4 flex flex-col gap-4"
+            className="h-[670px] overflow-y-auto border rounded p-3 space-y-3 scroll-smooth"
             onScroll={(e) => {
               const element = e.currentTarget;
               if (
